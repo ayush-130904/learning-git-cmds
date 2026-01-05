@@ -7,7 +7,7 @@ Clone: Cloning a repository on our local machine.
 bash
 
 ```
-git clone <repository-link> ```
+git clone <repository-link> 
 Status: Displays the status of the code.
 
 Untracked: New files that Git doesn't yet track.
@@ -18,8 +18,8 @@ Add/Staged: File is ready to commit.
 
 Commit/Unmodified: Unchanged files.
 
-Bash
-
+bash
+```
 git status
 Hidden files: To display hidden files in the terminal.
 
