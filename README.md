@@ -87,7 +87,7 @@ Compare branches:
 ```
 git diff <branch-name>
 ```
-## Merge branches:
+Merge branches:
 ```
 git merge <branch-name>
 ```
