@@ -4,8 +4,6 @@ This repository serves as a guide for essential Git commands, ranging from basic
 Clone and Status
 Clone: Cloning a repository on our local machine.
 
-bash
-
 ```
 git clone <repository-link>
 ```
