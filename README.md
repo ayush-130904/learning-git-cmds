@@ -99,6 +99,28 @@ Pull: Used to fetch and download content from remote (GitHub) repo to local (lap
 ```
 git pull origin main
 ```
+## Merge Conflicts
+A Merge Conflict happens when Git cannot automatically decide which changes to keep (e.g., when two people change the same line in a file).
+
+How to Resolve:
+Identify the conflict: Git will tell you which files have conflicts after you run git merge.
+
+Open the file: Look for the conflict markers:
+
+<<<<<<< HEAD (Your changes)
+
+======= (The separator)
+
+>>>>>>> branch-name (Changes from the other branch)
+
+Edit the file: Manually delete the markers and keep the code you want.
+
+Finalize:
+
+```
+git add <file-name>
+git commit -m "Resolved merge conflict"
+```
 ## Undoing Changes
 Case 1 (Staged Changes): If the file is not committed yet.
 ```
