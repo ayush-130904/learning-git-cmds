@@ -4,9 +4,10 @@ This repository serves as a guide for essential Git commands, ranging from basic
 Clone and Status
 Clone: Cloning a repository on our local machine.
 
-Bash 
+bash
 
-git clone <repository-link>
+```
+git clone <repository-link> ```
 Status: Displays the status of the code.
 
 Untracked: New files that Git doesn't yet track.
@@ -76,11 +77,6 @@ List Branches:
 Bash
 
 git branch
-Rename Branch:
-
-Bash
-
-git branch -M main
 Exit/Switch Branch:
 
 Bash
@@ -97,8 +93,7 @@ Bash
 
 git branch -d <branch-name>
 Merge Commands
-Method 1 (CLI):
-
+Method 1 (CLI)
 Compare branches:
 
 Bash
@@ -109,7 +104,8 @@ Merge branches:
 Bash
 
 git merge <branch-name>
-Method 2: Pull Request through GitHub.
+Method 2
+Pull Request through GitHub UI.
 
 Pull Command
 Pull: Used to fetch and download content from remote (GitHub) repo to local (laptop) repo to match the content immediately.
@@ -128,9 +124,7 @@ Case 2 (Committed Changes): For one commit.
 Bash
 
 git reset HEAD~1
-Case 3 (Multiple Commits):
-
-Reset to specific point:
+Case 3 (Multiple Commits): Reset to specific point:
 
 Bash
 
