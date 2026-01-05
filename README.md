@@ -7,7 +7,8 @@ Clone: Cloning a repository on our local machine.
 bash
 
 ```
-git clone <repository-link> 
+git clone <repository-link>
+```
 Status: Displays the status of the code.
 
 Untracked: New files that Git doesn't yet track.
